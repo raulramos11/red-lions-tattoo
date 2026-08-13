@@ -2,6 +2,7 @@
 
 const whatsapp =
   "https://wa.me/5521995562355?text=Oi%2C%20Red%20Lions!%20Quero%20conversar%20sobre%20uma%20ideia%20de%20tattoo.";
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const InstagramIcon = () => (
   <span className="social-icon" aria-hidden="true">◎</span>
@@ -9,7 +10,7 @@ const InstagramIcon = () => (
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ "--hero-image": `url('${publicBasePath}/images/hero.jpg')` } as React.CSSProperties}>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Red Lions Tattoo — início">
           <span className="brand-mark">RL</span>
@@ -66,15 +67,15 @@ export default function Home() {
         </div>
         <div className="work-grid">
           <figure className="work-card large">
-            <img src="/images/work-1.jpg" alt="Processo de tatuagem com traços em preto" />
+            <img src={`${publicBasePath}/images/work-1.jpg`} alt="Processo de tatuagem com traços em preto" />
             <figcaption><span>01</span><strong>Traço &amp; narrativa</strong><small>Projetos com presença</small></figcaption>
           </figure>
           <figure className="work-card">
-            <img src="/images/work-2.jpg" alt="Tatuador trabalhando com precisão no braço de um cliente" />
+            <img src={`${publicBasePath}/images/work-2.jpg`} alt="Tatuador trabalhando com precisão no braço de um cliente" />
             <figcaption><span>02</span><strong>Detalhe &amp; textura</strong><small>Precisão em cada linha</small></figcaption>
           </figure>
           <figure className="work-card red-card">
-            <img src="/images/work-3.jpg" alt="Detalhe de tatuagem floral em andamento" />
+            <img src={`${publicBasePath}/images/work-3.jpg`} alt="Detalhe de tatuagem floral em andamento" />
             <figcaption><span>03</span><strong>Do seu jeito</strong><small>Desenho pensado para você</small></figcaption>
           </figure>
         </div>
@@ -98,7 +99,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="studio-image">
-          <img src="/images/studio-v2.webp" alt="Estúdio de tatuagem com cadeira profissional, flashes e bancada de trabalho" />
+          <img src={`${publicBasePath}/images/studio-v2.webp`} alt="Estúdio de tatuagem com cadeira profissional, flashes e bancada de trabalho" />
           <span className="image-label">Imagem conceitual</span>
         </div>
       </section>

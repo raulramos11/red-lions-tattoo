@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 
 const whatsapp =
   "https://wa.me/5521995562355?text=Oi%2C%20Red%20Lions!%20Quero%20conversar%20sobre%20uma%20ideia%20de%20tattoo.";
@@ -63,15 +63,15 @@ export default function Home() {
         </div>
         <div className="work-grid">
           <figure className="work-card large">
-            <Image src="/images/work-1.jpg" alt="Processo de tatuagem com traços em preto" fill sizes="(max-width: 820px) 84vw, 52vw" />
+            <img src="/images/work-1.jpg" alt="Processo de tatuagem com traços em preto" />
             <figcaption><span>01</span><strong>Traço &amp; narrativa</strong><small>Projetos com presença</small></figcaption>
           </figure>
           <figure className="work-card">
-            <Image src="/images/work-2.jpg" alt="Tatuador trabalhando com precisão no braço de um cliente" fill sizes="(max-width: 820px) 84vw, 38vw" />
+            <img src="/images/work-2.jpg" alt="Tatuador trabalhando com precisão no braço de um cliente" />
             <figcaption><span>02</span><strong>Detalhe &amp; textura</strong><small>Precisão em cada linha</small></figcaption>
           </figure>
           <figure className="work-card red-card">
-            <Image src="/images/work-3.jpg" alt="Detalhe de tatuagem floral em andamento" fill sizes="(max-width: 820px) 84vw, 38vw" />
+            <img src="/images/work-3.jpg" alt="Detalhe de tatuagem floral em andamento" />
             <figcaption><span>03</span><strong>Do seu jeito</strong><small>Desenho pensado para você</small></figcaption>
           </figure>
         </div>
@@ -95,7 +95,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="studio-image">
-          <Image src="/images/studio.jpg" alt="Ambiente claro e organizado de estúdio de tatuagem" fill sizes="(max-width: 820px) 100vw, 50vw" />
+          <img src="/images/studio.jpg" alt="Ambiente claro e organizado de estúdio de tatuagem" />
           <span className="image-label">Ambiente ilustrativo</span>
         </div>
       </section>

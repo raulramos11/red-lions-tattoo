@@ -1,7 +1,8 @@
 # Snapshot
 - 2026-08-13T14:07:54-03:00 [USER] Goal: create and publish a complete website now for Red Lions Tattoo in Tijuca, using local tattoo-site references.
 - 2026-08-13T14:52:00-03:00 [TOOL] Current state: user approved public visibility; repository is public and GitHub Pages is enabled with workflow builds; supersedes the 14:45 state.
-- 2026-08-13T14:52:00-03:00 [TOOL] Next: merge the validated Pages configuration to main, monitor Actions, and verify the public URL.
+- 2026-08-13T15:02:00-03:00 [TOOL] Current state: GitHub Pages deployment from main succeeded in Actions run 31727345003; supersedes the 14:52 publishing state.
+- 2026-08-13T15:02:00-03:00 [TOOL] Next: update deprecated workflow action runtimes and verify the public page plus its image assets.
 - 2026-08-13T14:07:54-03:00 [USER] Constraint: use interesting visual direction and examples from regional tattoo sites.
 - 2026-08-13T14:07:54-03:00 [TOOL] Verified public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521995562355; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
 - 2026-08-13T14:07:54-03:00 [ASSUMPTION] Stock photos are explicitly labeled illustrative until official portfolio assets are supplied.
@@ -42,3 +43,4 @@
 - 2026-08-13T14:25:00-03:00 [TOOL] Sites deployment version 3 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site and supersedes version 2.
 - 2026-08-13T14:34:00-03:00 [TOOL] GitHub repository created and main pushed: https://github.com/raulramos11/red-lions-tattoo.
 - 2026-08-13T14:45:00-03:00 [TOOL] GitHub Pages static export passed Next build, 2 tests, ESLint, and base-path asset verification for `/red-lions-tattoo/`.
+- 2026-08-13T15:02:00-03:00 [TOOL] Initial GitHub Pages workflow run 31727345003 completed successfully: https://github.com/raulramos11/red-lions-tattoo/actions/runs/31727345003.

@@ -22,14 +22,14 @@ jobs:
       NEXT_PUBLIC_BASE_PATH: /red-lions-tattoo
       NEXT_PUBLIC_SITE_URL: https://raulramos11.github.io/red-lions-tattoo/
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
       - run: npm install --no-audit --no-fund
       - run: npm test
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: ./out
 

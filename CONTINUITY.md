@@ -1,7 +1,7 @@
 # Snapshot
 - 2026-08-13T14:07:54-03:00 [USER] Goal: create and publish a complete website now for Red Lions Tattoo in Tijuca, using local tattoo-site references.
-- 2026-08-13T14:19:32-03:00 [USER] Current state: user requested replacement of the clinical-looking studio image and repair of the clipped marquee.
-- 2026-08-13T14:19:32-03:00 [TOOL] Next: validate the new concept studio image and seamless duplicated marquee, then publish version 3.
+- 2026-08-13T14:25:00-03:00 [TOOL] Current state: version 3 is deployed privately with the concept tattoo-studio image and corrected seamless marquee; supersedes the 14:19 state.
+- 2026-08-13T14:25:00-03:00 [TOOL] Next: user review; replace the concept image only when an official Red Lions interior photo or logo becomes available.
 - 2026-08-13T14:07:54-03:00 [USER] Constraint: use interesting visual direction and examples from regional tattoo sites.
 - 2026-08-13T14:07:54-03:00 [TOOL] Verified public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521995562355; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
 - 2026-08-13T14:07:54-03:00 [ASSUMPTION] Stock photos are explicitly labeled illustrative until official portfolio assets are supplied.
@@ -13,6 +13,8 @@
 - D003 ACTIVE 2026-08-13T14:19:32-03:00 [USER] Every continuous marquee must duplicate an identical content group, translate exactly one group width, and soften viewport edges so clipped partial words are not visually exposed.
 
 # Done (recent)
+- 2026-08-13T14:25:00-03:00 [CODE] Replaced the clinical stock image with an original tattoo-studio interior concept image optimized to WebP.
+- 2026-08-13T14:25:00-03:00 [CODE] Rebuilt the marquee as two identical groups translating exactly 50 percent with masked edges and reduced-motion support.
 - 2026-08-13T14:07:54-03:00 [TOOL] Initialized bundled Sites starter and kept local preview running.
 - 2026-08-13T14:07:54-03:00 [TOOL] Identified the business and verified public contact/location/review facts.
 - 2026-08-13T14:07:54-03:00 [TOOL] Researched regional studio sites including Leonardo Novaes, Brazilian Ink, Base Tattoo, and RioInk.
@@ -35,3 +37,4 @@
 - 2026-08-13T14:07:54-03:00 [TOOL] Reference sources: leonardonovaestattoostudio.com.br, brazilianinktattoo.com, basetattoo.com.br, rioinktattoo.com.br.
 - 2026-08-13T14:18:00-03:00 [TOOL] Sites deployment version 1 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site.
 - 2026-08-13T14:22:00-03:00 [TOOL] Sites deployment version 2 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site and supersedes version 1.
+- 2026-08-13T14:25:00-03:00 [TOOL] Sites deployment version 3 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site and supersedes version 2.

@@ -1,9 +1,10 @@
 # Snapshot
 - 2026-08-13T14:07:54-03:00 [USER] Goal: create and publish a complete website now for Red Lions Tattoo in Tijuca, using local tattoo-site references.
-- 2026-08-13T14:51:03-03:00 [TOOL] Current state: repository is public and the GitHub Pages site is live and externally verified at https://raulramos11.github.io/red-lions-tattoo/; supersedes the earlier publishing state.
-- 2026-08-13T14:51:03-03:00 [TOOL] Next: optional custom domain or replacement of illustrative images with the studio's official portfolio.
+- 2026-08-13T14:54:26-03:00 [USER] Current state: official booking WhatsApp corrected to 5521986367782; supersedes the earlier contact fact.
+- 2026-08-13T14:54:26-03:00 [TOOL] Next: validate and republish the corrected WhatsApp on GitHub Pages and Sites.
 - 2026-08-13T14:07:54-03:00 [USER] Constraint: use interesting visual direction and examples from regional tattoo sites.
-- 2026-08-13T14:07:54-03:00 [TOOL] Verified public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521995562355; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
+- 2026-08-13T14:07:54-03:00 [TOOL] SUPERSEDED: initial lookup associated booking WhatsApp 5521995562355 with the studio.
+- 2026-08-13T14:54:26-03:00 [USER] Corrected public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521986367782; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
 - 2026-08-13T14:07:54-03:00 [ASSUMPTION] Stock photos are explicitly labeled illustrative until official portfolio assets are supplied.
 - 2026-08-13T14:07:54-03:00 [TOOL] Open questions: none blocking.
 

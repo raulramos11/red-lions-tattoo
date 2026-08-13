@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 const whatsapp =
-  "https://wa.me/5521995562355?text=Oi%2C%20Red%20Lions!%20Quero%20conversar%20sobre%20uma%20ideia%20de%20tattoo.";
+  "https://wa.me/5521986367782?text=Oi%2C%20Red%20Lions!%20Quero%20conversar%20sobre%20uma%20ideia%20de%20tattoo.";
 const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const InstagramIcon = () => (

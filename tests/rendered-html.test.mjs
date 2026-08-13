@@ -9,7 +9,8 @@ test("exports the finished Red Lions page", async () => {
 
   assert.match(html, /Red Lions Tattoo \| Estúdio de tatuagem na Tijuca/);
   assert.match(html, /Sua história/);
-  assert.match(html, /5521995562355/);
+  assert.match(html, /5521986367782/);
+  assert.doesNotMatch(html, /5521995562355/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
 });
 

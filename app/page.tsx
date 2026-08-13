@@ -50,7 +50,10 @@ export default function Home() {
       </section>
 
       <section className="marquee" aria-label="Especialidades">
-        <div>BLACKWORK <b>✦</b> FINE LINE <b>✦</b> REALISMO <b>✦</b> OLD SCHOOL <b>✦</b> LETTERING <b>✦</b> PROJETOS AUTORAIS <b>✦</b></div>
+        <div className="marquee-track">
+          <span className="marquee-content">BLACKWORK <b>✦</b> FINE LINE <b>✦</b> REALISMO <b>✦</b> OLD SCHOOL <b>✦</b> LETTERING <b>✦</b> PROJETOS AUTORAIS <b>✦</b></span>
+          <span className="marquee-content" aria-hidden="true">BLACKWORK <b>✦</b> FINE LINE <b>✦</b> REALISMO <b>✦</b> OLD SCHOOL <b>✦</b> LETTERING <b>✦</b> PROJETOS AUTORAIS <b>✦</b></span>
+        </div>
       </section>
 
       <section className="work-section" id="trabalhos">
@@ -95,8 +98,8 @@ export default function Home() {
           </ul>
         </div>
         <div className="studio-image">
-          <img src="/images/studio.jpg" alt="Ambiente claro e organizado de estúdio de tatuagem" />
-          <span className="image-label">Ambiente ilustrativo</span>
+          <img src="/images/studio-v2.webp" alt="Estúdio de tatuagem com cadeira profissional, flashes e bancada de trabalho" />
+          <span className="image-label">Imagem conceitual</span>
         </div>
       </section>
 

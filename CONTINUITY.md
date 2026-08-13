@@ -1,7 +1,7 @@
 # Snapshot
 - 2026-08-13T14:07:54-03:00 [USER] Goal: create and publish a complete website now for Red Lions Tattoo in Tijuca, using local tattoo-site references.
-- 2026-08-13T14:54:26-03:00 [USER] Current state: official booking WhatsApp corrected to 5521986367782; supersedes the earlier contact fact.
-- 2026-08-13T14:54:26-03:00 [TOOL] Next: validate and republish the corrected WhatsApp on GitHub Pages and Sites.
+- 2026-08-13T14:58:08-03:00 [TOOL] Current state: official booking WhatsApp 5521986367782 is live and verified on GitHub Pages and Sites; supersedes the 14:54 correction state.
+- 2026-08-13T14:58:08-03:00 [TOOL] Next: optional custom domain or replacement of illustrative images with the studio's official portfolio.
 - 2026-08-13T14:07:54-03:00 [USER] Constraint: use interesting visual direction and examples from regional tattoo sites.
 - 2026-08-13T14:07:54-03:00 [TOOL] SUPERSEDED: initial lookup associated booking WhatsApp 5521995562355 with the studio.
 - 2026-08-13T14:54:26-03:00 [USER] Corrected public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521986367782; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
@@ -15,6 +15,7 @@
 - D004 SUPERSEDED 2026-08-13T14:45:00-03:00 [USER] Repository was initially private; user explicitly approved making it public to enable GitHub Pages on the current plan.
 
 # Done (recent)
+- 2026-08-13T14:58:08-03:00 [CODE] Replaced every booking CTA with WhatsApp 5521986367782 and added a regression assertion excluding the superseded number.
 - 2026-08-13T14:25:00-03:00 [CODE] Replaced the clinical stock image with an original tattoo-studio interior concept image optimized to WebP.
 - 2026-08-13T14:25:00-03:00 [CODE] Rebuilt the marquee as two identical groups translating exactly 50 percent with masked edges and reduced-motion support.
 - 2026-08-13T14:07:54-03:00 [TOOL] Initialized bundled Sites starter and kept local preview running.
@@ -46,3 +47,6 @@
 - 2026-08-13T14:47:00-03:00 [TOOL] Initial GitHub Pages workflow run 31727345003 completed successfully: https://github.com/raulramos11/red-lions-tattoo/actions/runs/31727345003.
 - 2026-08-13T14:51:03-03:00 [TOOL] Final workflow run 31727549207 passed build, tests, artifact upload, and deploy using current Node 24-compatible action versions.
 - 2026-08-13T14:51:03-03:00 [TOOL] External verification returned HTTP 200 for the page and studio image; rendered HTML contains the Red Lions brand and booking WhatsApp.
+- 2026-08-13T14:55:00-03:00 [TOOL] GitHub Pages workflow run 31728008220 completed successfully for commit 033276b.
+- 2026-08-13T14:56:06-03:00 [TOOL] Sites version 4 deployment succeeded at https://red-lions-tattoo-tijuca.magaohehe.chatgpt.site.
+- 2026-08-13T14:58:08-03:00 [TOOL] External checks confirmed the new number and absence of the old number on both hosted versions; GitHub returned 200 and Sites returned 200 with owner authorization.

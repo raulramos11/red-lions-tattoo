@@ -1,7 +1,7 @@
 # Snapshot
 - 2026-08-13T14:07:54-03:00 [USER] Goal: create and publish a complete website now for Red Lions Tattoo in Tijuca, using local tattoo-site references.
-- 2026-08-13T14:25:00-03:00 [TOOL] Current state: version 3 is deployed privately with the concept tattoo-studio image and corrected seamless marquee; supersedes the 14:19 state.
-- 2026-08-13T14:25:00-03:00 [TOOL] Next: user review; replace the concept image only when an official Red Lions interior photo or logo becomes available.
+- 2026-08-13T14:34:00-03:00 [TOOL] Current state: site source is published to the new private GitHub repository raulramos11/red-lions-tattoo; supersedes the 14:25 state.
+- 2026-08-13T14:34:00-03:00 [TOOL] Next: optional repository visibility change or collaborator invitation only if the user requests it.
 - 2026-08-13T14:07:54-03:00 [USER] Constraint: use interesting visual direction and examples from regional tattoo sites.
 - 2026-08-13T14:07:54-03:00 [TOOL] Verified public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521995562355; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
 - 2026-08-13T14:07:54-03:00 [ASSUMPTION] Stock photos are explicitly labeled illustrative until official portfolio assets are supplied.
@@ -11,6 +11,7 @@
 - D001 ACTIVE 2026-08-13T14:07:54-03:00 [TOOL] Use an editorial black, cream, and burnt-red visual system with portfolio mosaic and direct WhatsApp CTA.
 - D002 ACTIVE 2026-08-13T14:07:54-03:00 [TOOL] Treat local references as structural inspiration only; do not copy their branding or claims.
 - D003 ACTIVE 2026-08-13T14:19:32-03:00 [USER] Every continuous marquee must duplicate an identical content group, translate exactly one group width, and soften viewport edges so clipped partial words are not visually exposed.
+- D004 ACTIVE 2026-08-13T14:34:00-03:00 [ASSUMPTION] Initial GitHub import uses a private repository and preserves the separate Sites publishing remote; public visibility requires an explicit follow-up.
 
 # Done (recent)
 - 2026-08-13T14:25:00-03:00 [CODE] Replaced the clinical stock image with an original tattoo-studio interior concept image optimized to WebP.
@@ -38,3 +39,4 @@
 - 2026-08-13T14:18:00-03:00 [TOOL] Sites deployment version 1 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site.
 - 2026-08-13T14:22:00-03:00 [TOOL] Sites deployment version 2 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site and supersedes version 1.
 - 2026-08-13T14:25:00-03:00 [TOOL] Sites deployment version 3 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site and supersedes version 2.
+- 2026-08-13T14:34:00-03:00 [TOOL] GitHub repository created and main pushed: https://github.com/raulramos11/red-lions-tattoo.

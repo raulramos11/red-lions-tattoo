@@ -1,8 +1,7 @@
 # Snapshot
 - 2026-08-13T14:07:54-03:00 [USER] Goal: create and publish a complete website now for Red Lions Tattoo in Tijuca, using local tattoo-site references.
-- 2026-08-13T14:52:00-03:00 [TOOL] Current state: user approved public visibility; repository is public and GitHub Pages is enabled with workflow builds; supersedes the 14:45 state.
-- 2026-08-13T15:02:00-03:00 [TOOL] Current state: GitHub Pages deployment from main succeeded in Actions run 31727345003; supersedes the 14:52 publishing state.
-- 2026-08-13T15:02:00-03:00 [TOOL] Next: update deprecated workflow action runtimes and verify the public page plus its image assets.
+- 2026-08-13T14:51:03-03:00 [TOOL] Current state: repository is public and the GitHub Pages site is live and externally verified at https://raulramos11.github.io/red-lions-tattoo/; supersedes the earlier publishing state.
+- 2026-08-13T14:51:03-03:00 [TOOL] Next: optional custom domain or replacement of illustrative images with the studio's official portfolio.
 - 2026-08-13T14:07:54-03:00 [USER] Constraint: use interesting visual direction and examples from regional tattoo sites.
 - 2026-08-13T14:07:54-03:00 [TOOL] Verified public facts: Red Lions Tattoo; Rua Conde de Bonfim 44, sala 1202, Tijuca; booking WhatsApp 5521995562355; Instagram @redlionstattoo; Google rating 5.0 from 30 reviews.
 - 2026-08-13T14:07:54-03:00 [ASSUMPTION] Stock photos are explicitly labeled illustrative until official portfolio assets are supplied.
@@ -12,7 +11,7 @@
 - D001 ACTIVE 2026-08-13T14:07:54-03:00 [TOOL] Use an editorial black, cream, and burnt-red visual system with portfolio mosaic and direct WhatsApp CTA.
 - D002 ACTIVE 2026-08-13T14:07:54-03:00 [TOOL] Treat local references as structural inspiration only; do not copy their branding or claims.
 - D003 ACTIVE 2026-08-13T14:19:32-03:00 [USER] Every continuous marquee must duplicate an identical content group, translate exactly one group width, and soften viewport edges so clipped partial words are not visually exposed.
-- D004 SUPERSEDED 2026-08-13T14:52:00-03:00 [USER] Repository was initially private; user explicitly approved making it public to enable GitHub Pages on the current plan.
+- D004 SUPERSEDED 2026-08-13T14:45:00-03:00 [USER] Repository was initially private; user explicitly approved making it public to enable GitHub Pages on the current plan.
 
 # Done (recent)
 - 2026-08-13T14:25:00-03:00 [CODE] Replaced the clinical stock image with an original tattoo-studio interior concept image optimized to WebP.
@@ -32,7 +31,7 @@
 # Incidents
 - 2026-08-13T14:07:54-03:00 [TOOL] Symptoms: npm scripts use POSIX inline env assignment on Windows. Evidence: npm run dev rejected WRANGLER_LOG_PATH syntax. Mitigation: set env in PowerShell and invoke vinext directly. Status: mitigated.
 - 2026-08-13T14:22:00-03:00 [TOOL] Symptoms: vinext dev logged a React runtime error after switching portfolio photos to next/image. Evidence: image component stack in dev log despite successful build. Mitigation: reverted to native responsive image elements and scoped lint suppression. Status: resolved; lint/build clean and version 2 deployed.
-- 2026-08-13T14:52:00-03:00 [TOOL] Symptoms: GitHub Pages activation returned HTTP 422 while private. Evidence: `Your current plan does not support GitHub Pages for this repository.` Mitigation: user approved public visibility; repository changed to public and Pages activation succeeded. Status: resolved.
+- 2026-08-13T14:45:00-03:00 [TOOL] Symptoms: GitHub Pages activation returned HTTP 422 while private. Evidence: `Your current plan does not support GitHub Pages for this repository.` Mitigation: user approved public visibility; repository changed to public and Pages activation succeeded. Status: resolved.
 
 # Receipts
 - 2026-08-13T14:07:54-03:00 [TOOL] Local preview: http://localhost:3000/.
@@ -43,4 +42,6 @@
 - 2026-08-13T14:25:00-03:00 [TOOL] Sites deployment version 3 succeeded at red-lions-tattoo-tijuca.magaohehe.chatgpt.site and supersedes version 2.
 - 2026-08-13T14:34:00-03:00 [TOOL] GitHub repository created and main pushed: https://github.com/raulramos11/red-lions-tattoo.
 - 2026-08-13T14:45:00-03:00 [TOOL] GitHub Pages static export passed Next build, 2 tests, ESLint, and base-path asset verification for `/red-lions-tattoo/`.
-- 2026-08-13T15:02:00-03:00 [TOOL] Initial GitHub Pages workflow run 31727345003 completed successfully: https://github.com/raulramos11/red-lions-tattoo/actions/runs/31727345003.
+- 2026-08-13T14:47:00-03:00 [TOOL] Initial GitHub Pages workflow run 31727345003 completed successfully: https://github.com/raulramos11/red-lions-tattoo/actions/runs/31727345003.
+- 2026-08-13T14:51:03-03:00 [TOOL] Final workflow run 31727549207 passed build, tests, artifact upload, and deploy using current Node 24-compatible action versions.
+- 2026-08-13T14:51:03-03:00 [TOOL] External verification returned HTTP 200 for the page and studio image; rendered HTML contains the Red Lions brand and booking WhatsApp.
